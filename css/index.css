@@ -1,0 +1,15 @@
+@import "style.css";
+
+div.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+
+.greeting-text-div, .input-and-submit-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+@import "style.css";
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+
+
+.title-div {
+    height: 50vh;
+    transform: translateY(70%);
+}
+
+h1, h2, h5, button {
+    margin-bottom: 16px
+}
