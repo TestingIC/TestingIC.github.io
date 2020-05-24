@@ -17,3 +17,13 @@
 h1, h2, h5, button {
     margin-bottom: 16px
 }
+
+button {
+    color: var(--strong);
+    font-size: 2rem;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    border: 0px;
+    border-radius: 10%;
+    height: 25%;
+    width: 25%;
+}

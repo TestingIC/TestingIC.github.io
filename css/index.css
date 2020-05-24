@@ -13,3 +13,25 @@ div.grid {
     align-items: center;
     justify-content: center;
 }
+
+p {
+    font-size: 2rem;
+}
+
+input, button {
+    width: 30%;
+    height: 15%;
+    color: var(--strong);
+    font-size: 2rem;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    border: 0px;
+}
+
+input {
+    margin-right: 30px;
+}
+
+input[type=text] {
+    border-radius: 10%;
+    padding-left: 10px;
+}

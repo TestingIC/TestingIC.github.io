@@ -1,0 +1,10 @@
+.title-div {
+    height: 30vh;
+    transform: translateY(70%);
+}
+
+img {
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+}
