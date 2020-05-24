@@ -31,7 +31,7 @@ else if (localStorage["name"].includes("pierson") == true || localStorage["name"
     document.getElementById("special-introduction").textContent = "(Just wanted to say thank you, for being the absolute smartest but also the most stupid friend I've ever had. And for helping me through softmore year, even if it wasn't obvious, you helped me through a lot of tough times. So, thanks, it means a lot.)"
 }
 else if (localStorage["name"].includes("eleni") == true || localStorage["name"].includes("Eleni") == true) {
-    document.getElementById("special-introduction").textContent = "(special-introduction").textContent = "(Thanks for the help throughout the years, definetly wouldn't be who I am without you helping me through Physics, History, Etc.)"
+    document.getElementById("special-introduction").textContent = "(Thanks for the help throughout the years, definetly wouldn't be who I am without you helping me through Physics, History, Etc.)"
 }
 document.getElementById("goto-home-button").addEventListener("click", function() {
     window.location.assign("../html/home.html")
