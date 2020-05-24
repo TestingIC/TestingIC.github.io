@@ -33,6 +33,7 @@ else if (localStorage["name"].includes("pierson") == true || localStorage["name"
 else if (localStorage["name"].includes("eleni") == true || localStorage["name"].includes("Eleni") == true) {
     document.getElementById("special-introduction").textContent = "(Thanks for the help throughout the years, definetly wouldn't be who I am without you helping me through Physics, History, Etc.)"
 }
+
 document.getElementById("goto-home-button").addEventListener("click", function() {
     window.location.assign("../html/home.html")
 })
