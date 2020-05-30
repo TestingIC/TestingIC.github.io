@@ -28,7 +28,7 @@ else if (localStorage["name"].includes("maggie") == true || localStorage["name"]
     document.getElementById("special-introduction").textContent = "(We have got to do some car rides while screaming musicals soon! It's been too long! Also, thank you, for being there since that first post I made on SC, it means a lot that you've stuck around this long.)"
 }
 else if (localStorage["name"].includes("pierson") == true || localStorage["name"].includes("Pierson") == true) {
-    document.getElementById("special-introduction").textContent = "(Just wanted to say thank you, for being the absolute smartest but also the most stupid friend I've ever had. And for helping me through softmore year, even if it wasn't obvious, you helped me through a lot of tough times. So, thanks, it means a lot.)"
+    document.getElementById("special-introduction").textContent = "(Just wanted to say thank you, for being the absolute smartest but also the most stupid friend I've ever had. And for helping me through sophomore year, even if it wasn't obvious, you helped me through a lot of tough times. So, thanks, it means a lot.)"
 }
 else if (localStorage["name"].includes("eleni") == true || localStorage["name"].includes("Eleni") == true) {
     document.getElementById("special-introduction").textContent = "(Thanks for the help throughout the years, definetly wouldn't be who I am without you helping me through Physics, History, Etc.)"
